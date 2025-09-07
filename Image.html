@@ -7,19 +7,23 @@
 </head>
 
 <body>
-    <form action="https://google.com/search">
-        <img id="GoogleLogo" src="img.folder/GoogleLogoImage.webp" alt="Google">
-        <span id="GoogleLogoImage">Images</span>
-        <div class="GoogleSearch">
-            <img id="GoogleSearchIcon" src="img.folder/GoogleSearchIcon.webp" alt="Search">
-            <input type="text" name="q">
-        </div>
-        <input type="hidden" name="tbm" value="isch">
-        <div class="submit-container">
+    <div class="main-content">
+        <!--Image Search-->
+        <form action="https://google.com/search">
+            <img id="GoogleLogo" src="img.folder/GoogleLogoImage.webp" alt="Google">
+            <span id="GoogleLogoImage">Images</span>
+            <div class="GoogleSearch">
+                <img id="GoogleSearchIcon" src="img.folder/GoogleSearchIcon.webp" alt="Search">
+                <input type="text" name="q">
+            </div>
+            <input type="hidden" name="tbm" value="isch">
             <div class="submit-container">
                 <input type="submit" value="Image Search">
             </div>
-    </form>
+        </form>
+    </div>
+
+    <div id="BottomBox"></div>
 
     <div class="TopButtons">
         <a href="index.html" id="ImageButton">Google Search</a>

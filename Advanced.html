@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="Astyles.css">
+</head>
+
+<body>
+    <div class="content-container">
+        <header>
+            <h1>Advanced Search</h1>
+        </header>
+        <form action="https://www.google.com/search" method="get">
+            <!-- Advanced search options -->
+            <div class="input-group">
+                <input type="text" class="advanced-input" name="q" placeholder="Find pages with all these words">
+                <span class="help-message">Type important words: water ocean sea</span>
+            </div>
+            <div class="input-group">
+                <input type="text" class="advanced-input" name="as_epq"
+                    placeholder="Find pages with this exact word or phrase">
+                <span class="help-message">Type exact phrase: "blue ocean"</span>
+            </div>
+            <div class="input-group">
+                <input type="text" class="advanced-input" name="as_oq" placeholder="Find pages with any of these words">
+                <span class="help-message">Type any words: beach sand waves</span>
+            </div>
+            <div class="input-group">
+                <input type="text" class="advanced-input" name="as_eq"
+                    placeholder="Find pages with none of these words">
+                <span class="help-message">Exclude words: desert dry</span>
+            </div>
+
+            <div class="button-container">
+                <input type="submit" id="SubmitButton" value="Advanced Search">
+            </div>
+            <input type="hidden" name="hl" value="en">
+        </form>
+
+
+        <div class="TopButtons">
+            <button id="ImageButton" onclick="window.location.href='index.html'"> Google Search </button>
+        </div>
+    </div>
+    <div id="BottomBox"></div>
+</body>
+
+</html>
